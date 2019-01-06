@@ -10,12 +10,7 @@ public class AccountCriteria {
     private String currency;
     private Long idClient;
 
-    public AccountCriteria(String accountRef, Double balance, String currency, Long idClient) {
-        this.accountRef = accountRef;
-        this.balance = balance;
-        this.currency = currency;
-        this.idClient = idClient;
-    }
+    public AccountCriteria() {}
 
     public String getAccountRef() {
         return accountRef;
@@ -31,5 +26,21 @@ public class AccountCriteria {
 
     public Long getIdClient() {
         return idClient;
+    }
+
+    public void setAccountRef(String accountRef) {
+        this.accountRef = accountRef;
+    }
+
+    public void setBalance(Double balance) {
+        this.balance = balance;
+    }
+
+    public void setCurrency(String currency) {
+        this.currency = currency;
+    }
+
+    public void setIdClient(Long idClient) {
+        this.idClient = idClient;
     }
 }

@@ -10,3 +10,9 @@
 2018-11-25 12:49:48 INFO  ch.arexa.hesge.jdbc.bank.dao.BankDA:59 -  saved ch.arexa.hesge.jdbc.bank.Client{id=12, name='pierre', address='rue du lac'}under id null
 2018-11-25 21:39:24 INFO  BankDAOTest:27 - MySQL
 2018-11-25 22:14:53 INFO  BankDATest:28 - MySQL
+2019-01-06 13:47:55 INFO  AccountDA:154 - built SQL : select * from Account where 1=1  and accountRef=? and balance=? and currencyCode=? and idClient=?
+2019-01-06 13:53:15 INFO  AccountDA:154 - built SQL : select * from Account where 1=1  and accountRef=? and balance=? and currencyCode=? and idClient=?
+2019-01-06 13:59:32 INFO  AccountDA:154 - built SQL : select * from Account where 1=1  and balance=? and currencyCode=?
+2019-01-06 13:59:32 INFO  AccountDA:170 - Prepared statment com.mysql.jdbc.JDBC42PreparedStatement@3d24753a: select * from Account where 1=1  and balance=200.0 and currencyCode='EUR'
+2019-01-06 13:59:32 INFO  AccountDA:154 - built SQL : select * from Account where 1=1  and balance=? and currencyCode=?
+2019-01-06 13:59:32 INFO  AccountDA:170 - Prepared statment com.mysql.jdbc.JDBC42PreparedStatement@2d6e8792: select * from Account where 1=1  and balance=100.0 and currencyCode='CHF'

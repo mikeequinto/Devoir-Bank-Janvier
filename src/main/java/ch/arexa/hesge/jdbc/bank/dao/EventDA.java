@@ -7,9 +7,6 @@ import java.text.DateFormat;
 import java.sql.*;
 import java.text.SimpleDateFormat;
 
-/**
- * Created by john on 07.12.2018.
- */
 public class EventDA extends BankDA{
 
     public Long persist(Event e) throws SQLException {
