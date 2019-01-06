@@ -1,0 +1,12 @@
+2018-11-25 12:37:47 INFO  ch.arexa.hesge.jdbc.bank.dao.BankDA:57 -  saved ch.arexa.hesge.jdbc.bank.Client@4cc77c2eunder id 4
+2018-11-25 12:39:08 INFO  ch.arexa.hesge.jdbc.bank.dao.BankDA:57 -  saved ch.arexa.hesge.jdbc.bank.Client{id=null, name='pierre', address='pierre@gmail.com', dao=ch.arexa.hesge.jdbc.bank.dao.BankDA@4cc77c2e}under id 5
+2018-11-25 12:39:08 INFO  ch.arexa.hesge.jdbc.bank.dao.BankDA:59 -  saved ch.arexa.hesge.jdbc.bank.Client{id=5, name='pierre', address='rue du lac', dao=ch.arexa.hesge.jdbc.bank.dao.BankDA@4cc77c2e}under id 6
+2018-11-25 12:42:20 INFO  ch.arexa.hesge.jdbc.bank.dao.BankDA:57 -  saved ch.arexa.hesge.jdbc.bank.Client{id=null, name='pierre', address='pierre@gmail.com'}under id 7
+2018-11-25 12:42:39 INFO  ch.arexa.hesge.jdbc.bank.dao.BankDA:57 -  saved ch.arexa.hesge.jdbc.bank.Client{id=null, name='pierre', address='pierre@gmail.com'}under id 8
+2018-11-25 12:46:51 INFO  ch.arexa.hesge.jdbc.bank.dao.BankDA:57 -  saved ch.arexa.hesge.jdbc.bank.Client{id=null, name='pierre', address='pierre@gmail.com'}under id 9
+2018-11-25 12:47:50 INFO  ch.arexa.hesge.jdbc.bank.dao.BankDA:57 -  saved ch.arexa.hesge.jdbc.bank.Client{id=null, name='pierre', address='pierre@gmail.com'}under id 10
+2018-11-25 12:49:10 INFO  ch.arexa.hesge.jdbc.bank.dao.BankDA:57 -  saved ch.arexa.hesge.jdbc.bank.Client{id=null, name='pierre', address='pierre@gmail.com'}under id 11
+2018-11-25 12:49:48 INFO  ch.arexa.hesge.jdbc.bank.dao.BankDA:57 -  saved ch.arexa.hesge.jdbc.bank.Client{id=null, name='pierre', address='pierre@gmail.com'}under id 12
+2018-11-25 12:49:48 INFO  ch.arexa.hesge.jdbc.bank.dao.BankDA:59 -  saved ch.arexa.hesge.jdbc.bank.Client{id=12, name='pierre', address='rue du lac'}under id null
+2018-11-25 21:39:24 INFO  BankDAOTest:27 - MySQL
+2018-11-25 22:14:53 INFO  BankDATest:28 - MySQL
